@@ -16,18 +16,18 @@ def search_windows(query):
 
 
 search_items = [
-    "leetcode",
-    "w3schools",
-    "programiz",
-    "javatpoint",
-    "takeuforward",
-    "geeksforgeeks",
-    "tutorialspoint",
-    "bing homepage quiz",
-    "online c++ formatter",
-    "coding ninjas studio",
-    # Add more search items here
+    "Stack Overflow",
+    "GitHub",
+    "TechCrunch",
+    "Hacker News",
+    "Codecademy",
+    "FreeCodeCamp",
+    "GeeksforGeeks",
+    "Dribbble",
+    "CodePen",
+    "HackerRank"
 ]
+
 
 # Shuffle the search items in place
 random.shuffle(search_items)
