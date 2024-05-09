@@ -1,21 +1,28 @@
-# AutoRewards - MS Rewards Grinder
+# AutoRewards - Microsoft Rewards Grinder
 
-This repository contains Python scripts for automating searches from Windows computers for the sake of earning Microsoft Rewards at different levels.
+This repository contains Python scripts for automating searches from Windows computers to earn Microsoft Rewards at different levels.
 
-Note that these scripts can only help grind MS Rewards that are earnable from computers, not mobile devices. For mobile devices, you have to manually do the searches on the Bing app.
+Microsoft Rewards is a loyalty program offered by Microsoft that allows users to earn points by searching the web with Bing and completing other tasks. These scripts automate the search tasks to help users earn points more efficiently.
+
+Please note that these scripts can only assist in grinding Microsoft Rewards on computers, not on mobile devices. For mobile devices, you'll need to manually perform the searches using the Bing app.
 
 ## Overview
 
 This project includes two Python scripts:
 
-- `level_1_grinder.py`: Script for grinding MS Rewards at level 1. (For grinding 30pts daily)
-- `level_2_grinder.py`: Script for grinding MS Rewards at level 2. (For grinding 90pts daily)
+- `level_1_grinder.py`: Script for grinding Microsoft Rewards at level 1. (For earning 30 points daily)
+- `level_2_grinder.py`: Script for grinding Microsoft Rewards at level 2. (For earning 90 points daily)
 
 ## Features
 
 - Automates search tasks on Windows to earn Microsoft Rewards points.
-- Customizable search items list for each level.
+- Customizable list of search items for each level.
 - Simple and easy-to-understand codebase.
+
+## System Requirements
+
+- Windows 10 or Windows 11 operating system.
+- Stable internet connection with at least 4G data speed.
 
 ## Usage
 
@@ -25,9 +32,9 @@ This project includes two Python scripts:
 2. Ensure you have Python 3.x installed.
 3. Install the necessary dependencies using the following command in Command Prompt:
 
-   ```
+```
    pip install pyautogui
-   ```
+```
 
 ### Running the Scripts:
 
@@ -35,25 +42,21 @@ This project includes two Python scripts:
 
 - Ensure your PC is idle before running these scripts because they could manipulate the running program. Avoid using your PC while the scripts are running.
 - Adjust the time gap between searches according to your internet speed. The default is 8 seconds. You can adjust it in both scripts at line no. 13.
-- In case you want to stop running script, just switch to Python shell and clink in there and press "ctrl + C".
+- In case you want to stop the running script, switch to the opened Python terminal and press "ctrl + C".
 
 **Procedure:**
 
-Open blank new tab in edge browser and then run the desired script based on the level of MS Rewards you want to grind:
+Open a blank new tab in the Edge browser and then run the desired script based on the level of Microsoft Rewards you want to grind:
 
-_Method 1:_ You can use the following commands in Command Prompt:
+You can simply double-click the file you want to run from the file explorer.
 
-```
-python level_1_grinder.py
-```
+## Troubleshooting
 
-or
+If you encounter any issues while running the scripts, please check the following:
 
-```
-python level_2_grinder.py
-```
-
-_Method 2:_ Alternatively, you can simply double-click the file you want to run from the file explorer.
+- Ensure Python and the necessary dependencies are installed correctly.
+- Verify that your PC meets the requirements for running the scripts.
+- If you encounter errors, refer to the error messages for clues on what went wrong.
 
 ## Disclaimer
 
