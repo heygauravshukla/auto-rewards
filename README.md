@@ -42,7 +42,7 @@ This project includes two Python scripts:
 
 - Ensure your PC is idle before running these scripts because they could manipulate the running program. Avoid using your PC while the scripts are running.
 - Adjust the time gap between searches according to your internet speed. The default is 8 seconds. You can adjust it in both scripts at line no. 13.
-- In case you want to stop the running script, switch to the opened Python terminal and press "ctrl + C".
+- In case you want to stop the running script, switch to the opened Python terminal and press "ctrl + C" twice or thrice.
 
 **Procedure:**
 
